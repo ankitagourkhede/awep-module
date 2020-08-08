@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox window division</title>
+
+    <style>
+       html,
+          body{
+          margin:3em;
+          flex-direction: column;
+    }
+
+    </style>
+</head>
+<body>
+    <div
+    style="
+    height: 50vh;
+    display: flex;
+    "
+    >
+    <div style="
+    background: seagreen;
+    display: flex;
+    justify-content:right;
+    align-items: right;
+    color: blanchedalmond;
+    font-size: 50px;
+    flex-direction: column;
+    
+     "></div>
+
+     <div>
+      <img src="https://picsum.photos/id/1010/800/400" style= "width: 100% ;object-fit: cover;" >
+     </div>
+
+
+    <div style="
+    background: slateblue;
+     flex: 1;
+     justify-content: center;
+     align-items: center;
+     color:blueviolet;
+     font-size: 50px;
+     display: flex;
+     flex-direction: column;
+     "></div>
+
+     <div>
+       <img src="https://picsum.photos/id/1011/800/400" style="width: 100%;object-fit:cover; flex-direction: column;">
+
+     </div>
+
+
+    <div style=
+    "background: teal;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    color: chocolate;
+    font-size: 50px;
+    display: flex;
+    "></div>
+
+    <div>
+       <img src="https://picsum.photos/id/1021/800/400" style="width: 100%; object-fit: cover; flex-direction: column;">
+
+    </div>
+
+    <div style=
+    "background: rgb(57, 59, 59);
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    color: rgb(231, 196, 170);
+    font-size: 50px;
+    display: flex;
+    "></div>
+
+    <div>
+       <img src="https://picsum.photos/id/1022/800/400" style="width: 100%; object-fit: cover; flex-direction: column;">
+
+    </div>
+    </div>
+</body>
+</html>
